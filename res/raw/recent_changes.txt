@@ -1,4 +1,10 @@
 ---------------------------------------------------------
+release: 1.2
+date: 2012-09-02
+- Updated graphics and theme to JellyBean
+- Hungarian translation added
+
+---------------------------------------------------------
 release: 1.1.6
 date: 2011-06-02
 - fix bug that prevented sending attachments through menu "Send" (patch by Alex)

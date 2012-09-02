@@ -1,5 +1,6 @@
  ****************************************************************************
  * Copyright (C) 2008-2011 OpenIntents.org                                  *
+ * Copyright (C) 2012 JellyBean Mini Project                                *
  *                                                                          *
  * Licensed under the Apache License, Version 2.0 (the "License");          *
  * you may not use this file except in compliance with the License.         *
@@ -21,6 +22,12 @@ seamlessly cooperates with other applications.
 To obtain the current release, visit
   http://www.openintents.org
 
+
+---------------------------------------------------------
+release: 1.2
+date: 2012-09-02
+- Updated graphics and theme to JellyBean
+- Hungarian translation added
 
 ---------------------------------------------------------
 release: 1.1.6

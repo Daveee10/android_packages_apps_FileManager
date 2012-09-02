@@ -17,10 +17,13 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="org.openintents.cmfilemanager"
     android:installLocation="auto"
-	android:versionName="1.1.6"
-	android:versionCode="17">
+	android:versionName="1.2"
+	android:versionCode="20">
 	<!-- History: 
 	 * * * UPDATE ATRACKDOG METADATA BELOW FOR RELEASE CANDIDATES * * *
+	[20] 1.2: 2012-09-02
+	[19] 1.2-rc2: 2012-02-04
+	[18] 1.2-rc1: 2012-01-26
 	[17] 1.1.6: 2011-06-02
 	[16] 1.1.5: 2011-05-28
 	[15] 1.1.5-rc1: 2011-05-01
@@ -35,8 +38,8 @@
 	-->
 	
 	    
-        <uses-sdk android:minSdkVersion="2"
-            android:targetSdkVersion="9" />
+        <uses-sdk android:minSdkVersion="4"
+            android:targetSdkVersion="15" />
         <!-- If targetSdkVersion is increased from 4 to 5 or higher, 
         	the following needs to be adjusted:
              * FileManagerActivity: onKeyDown(): New way how "back" key is handled.
@@ -50,7 +53,7 @@
     
         <!-- aTrackDog metadata -->
         <meta-data android:name="com.a0soft.gphone.aTrackDog.testVersion"
-           android:value="13" />
+           android:value="19" />
            
 		<meta-data android:name="org.openintents.metadata.COMMENTS"
                        android:value="@string/about_comments" />
